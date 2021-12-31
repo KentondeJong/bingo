@@ -60,7 +60,7 @@ def roll():
     elif num >= 46 and num <= 60:
         str = 'G'
     elif num >= 61 and num <= 75:
-        str = '0'
+        str = 'O'
 
     #print the letters and number
     messagebox.showinfo( "You rolled...", (str, bingo[0][0]))
